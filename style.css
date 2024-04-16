@@ -1,0 +1,130 @@
+header{
+    flex-basis: 100%;
+    width: 100%;
+    text-decoration: underline;
+}
+
+body{
+    background: rgb(255, 238, 0);
+    text-align: center;
+     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section{
+    flex-basis: 25%;
+    max-width: 25%;
+    border: 3px solid gray;
+    padding: 5px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+aside{
+    flex-basis: 25%;
+    max-width: 25%;
+    border: 3px ridge gray;
+    padding: 5px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+aside ul{
+    list-style-type: none;
+    text-align: center;
+    margin-left: -40px;
+}
+
+div{
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+img{
+    border: 3px ridge rgb(226, 222, 222);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.116) ;
+    max-width: 100%;
+}
+
+nav{
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+#menu{
+    display: inline-flex;
+    border: 2px black solid;
+    list-style: none;
+    padding: 5px;
+    
+}
+
+#menu li{
+    border: 2px solid ;
+    padding: 5px;
+}
+
+#menu li:hover{
+    background-color: white;
+    color: blue;
+}
+
+#menu li:active{
+    color: red;
+}
+
+#menu li>a{
+    text-decoration: none;
+}
+
+footer{
+    clear: both;
+}
+
+.yellow{
+    border: 2px ridge white;
+    background-color: yellow;
+}
+
+.orange{
+    border: 2px ridge orange;
+    background-color: orange;
+}
+
+.gray{
+    border: 2px ridge gray;
+    background-color: gray;
+}
+
+.green{
+    border: 2px ridge green;
+    background-color: green;
+}
+
+.white{
+    border: 2px ridge white;
+    background-color: white;
+}
+
+.red{
+    border: 2px ridge red;
+    background-color: red;
+}
+
+.blue{
+    border: 2px ridge blue;
+    background-color: blue;
+    color: white;
+}
+
+.black{
+    border: 2px ridge black;
+    background-color: black;
+    color: white;
+}
+
+#temp{
+    max-width: 100%;
+    text-align: center;
+}
